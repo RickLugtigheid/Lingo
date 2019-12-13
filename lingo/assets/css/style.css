@@ -1,0 +1,63 @@
+#gridContainer{
+    display: grid;
+    grid-template-columns: 100px 100px 100px 100px 100px;
+    grid-template-rows: 100px 100px 100px 100px 100px;
+    margin: auto;
+}
+.LetterStyle{
+    border: black 1px solid;
+    text-align: center;
+    font-size: 66px;
+}
+.yellowLetter{
+    width: 100px;
+    height: 100px;
+    background: yellow;
+    border-radius: 50%;
+}
+.greenLetter{
+    width: 100px;
+    height: 100px;
+    background: green;
+    border-radius: 0%;
+}
+#gameOver{
+    z-index: 1;
+    position: absolute;
+    top: 25%;
+    left: 35%;
+    color: red;
+    width: 30%;
+    height: 30%;
+    text-align: center;
+    border: black 3px solid;
+    background-color: gray;
+}
+#gameOver button{
+    background-color: green;
+    width: 50%;
+    height: 25%;
+}
+#gameOver button:hover{
+    background-color: rgb(7, 204, 7);
+}
+#gewonnen{
+    z-index: 1;
+    position: absolute;
+    top: 25%;
+    left: 35%;
+    color: blue;
+    width: 30%;
+    height: 30%;
+    text-align: center;
+    border: black 3px solid;
+    background-color: lightskyblue;
+}
+#gewonnen button{
+    background-color: green;
+    width: 50%;
+    height: 25%;
+}
+#gewonnen button:hover{
+    background-color: rgb(7, 204, 7);
+}
