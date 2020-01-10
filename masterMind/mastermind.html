@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="assets/css/style.css">
+    <title>MasterMind</title>
+</head>
+<body>
+    <div id="gridContainer">
+    </div>
+    
+    <script src="assets/js/mastermindMotor.js"></script>
+    <button class="itemRound red" onclick="colorSelect('red');"></button>
+    <button class="itemRound blue" onclick="colorSelect('blue');"></button>
+    <button class="itemRound green" onclick="colorSelect('green');"></button>
+    <button class="itemRound yellow" onclick="colorSelect('yellow');"></button>
+    <br>
+    <button class="itemRound brown" onclick="colorSelect('brown');"></button>
+    <button class="itemRound orange" onclick="colorSelect('orange');"></button>
+    <button class="itemRound black" onclick="colorSelect('black');"> </button>
+    <button class="itemRound white" onclick="colorSelect('white');"> </button>
+</body>
+<button id="checkButton" onclick="checkRow();">check Row</button>
+</html>

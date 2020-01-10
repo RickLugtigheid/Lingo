@@ -1,0 +1,55 @@
+.itemRound{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background-color: rgb(87, 87, 87);
+    z-index: 1;
+    margin: auto;
+}
+.helpPens{
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    background-color: rgb(87, 87, 87);
+    z-index: 1;
+    margin: auto;
+}
+.item{
+    z-index: 0;
+    width: 50px;
+    height: 50px;
+    background-color: gray;
+}
+#gridContainer{
+    display: grid;
+    grid-template-rows: 50px 50px 50px 50px 50px 50px 50px 50px;
+}
+#checkButton{
+    position: absolute;
+    top: 20px;
+    left: 15%;
+}
+.red{
+    background-color: red;
+}
+.green{
+    background-color: green;
+}
+.blue{
+    background-color: blue;
+}
+.yellow{
+    background-color: yellow;
+}
+.brown{
+    background-color: brown;
+}
+.orange{
+    background-color: orange;
+}
+.black{
+    background-color: black;
+}
+.white{
+    background-color: white;
+}
