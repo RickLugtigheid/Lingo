@@ -8,11 +8,16 @@
 }
 .helpPens{
     width: 10px;
-    height: 10px;
+    height: 15px;
     border-radius: 50%;
     background-color: rgb(87, 87, 87);
     z-index: 1;
     margin: auto;
+}
+#pens{
+    position: absolute;
+    top: 8px;
+    left: 13.5%;
 }
 .item{
     z-index: 0;
@@ -27,7 +32,7 @@
 #checkButton{
     position: absolute;
     top: 20px;
-    left: 15%;
+    left: 25%;
 }
 .red{
     background-color: red;
